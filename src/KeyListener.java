@@ -19,14 +19,11 @@ public class KeyListener implements java.awt.event.KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
-        if(e.getKeyCode() == KeyEvent.VK_U) {
+        if(e.getKeyCode() == KeyEvent.VK_ESCAPE) {
             parentWindow.updateScreen();
         }
-        if(e.getKeyCode() == KeyEvent.VK_ENTER) {
+        if(e.getKeyCode() == KeyEvent.VK_F1) {
             parentWindow.startTyping();
-        }
-        if(e.getKeyCode() == KeyEvent.VK_ESCAPE) {
-            System.exit(1);
         }
     }
 

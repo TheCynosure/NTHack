@@ -7,7 +7,6 @@ import java.util.ArrayList;
  * Created by Jack on 6/9/2016.
  */
 public class GlassPane extends JPanel {
-
     private Rectangle fullScreen;
     private BufferedImage screenGrab = null;
     private ArrayList<Point> points = new ArrayList<Point>();
